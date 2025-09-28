@@ -14,7 +14,7 @@
     h1 {
       color: #d81b60;
       font-size: 3em;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
 
     .cake {
@@ -22,23 +22,20 @@
       margin: 0 auto;
       width: 200px;
       height: 150px;
-      background: #ffccbc;
-      border-radius: 0 0 20px 20px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     }
 
     .layer {
-      position: absolute;
       width: 200px;
       height: 50px;
       background: #ffab91;
       border-radius: 20px;
-      top: -50px;
+      margin-bottom: 5px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     }
 
     .candle {
       position: absolute;
-      top: -80px;
+      top: -60px;
       left: 90px;
       width: 20px;
       height: 60px;
@@ -66,3 +63,13 @@
 </head>
 <body>
   <h1>¡Feliz Cumpleaños!</h1>
+  <div class="cake">
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="candle">
+      <div class="flame"></div>
+    </div>
+  </div>
+</body>
+</html>
